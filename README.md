@@ -1,2 +1,2 @@
 # PHP website
-start: nain.html
+start: main.html
