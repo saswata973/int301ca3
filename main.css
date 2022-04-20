@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 18px sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #eee;
+}
+
+.main {
+    max-width: 600px;
+    background-color: #fff;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    border-radius: 4px;
+    color: #4c4e56;
+}
+
+
+form{
+	border-top: 2px solid #5ea4f3;
+	
+	padding: 0px;
+	max-width: 600px;
+	margin: auto;
+}
+
+.title{
+	font-size: 1em;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 0.8em;
+	font-weight: 600;
+	padding-bottom: 8px;
+}
+
+.products{
+	background-color: #f7fbff;
+    padding: 25px;
+}
+
+.item{
+	margin-bottom:1em;
+}
+
+.item-name{
+	font-weight:600;
+	font-size: 0.9em;
+}
+
+.item-description{
+	font-size:0.8em;
+	opacity:0.6;
+}
+
+.item p{
+	margin-bottom: 5px;
+}
+
+.price{
+	float: right;
+	font-weight: 600;
+	font-size: 0.9em;
+}
+
+.total{
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	margin-top: 10px;
+	padding-top: 19px;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.submit{
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #34885a;
+    color: white;
+    margin-top: 120px;
+}

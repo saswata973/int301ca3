@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 18px sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #eee;
+}
+
+.main {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    border-radius: 4px;
+    color: #4c4e56;
+}
+
+
+#header h1 {
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+    margin: 20px 0px 10px;
+}
+
+#payment {
+    float: left;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.form-elements {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.form-input {
+    line-height: 40px;
+    width: 100%;
+    padding: 0 16px;
+    border: 1px solid #b2b5c0;
+    border-radius: 3px;
+}
+
+.form-label {
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.name {
+    width: 63%;
+    margin-right: 10px;
+}
+
+.cvv {
+    width: 35%;
+}
+
+.card-number {
+    width: 100%;
+}
+
+.expiration-date {
+    width: 49%;
+}
+
+.select {
+    width: 45%;
+    float: left;
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+}
+
+
+.credit-cards {
+    width: 50%;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.form-image {
+    height: 45px;
+    width: 70px;
+    margin-left: 2px;
+    border: 1px solid #b2b5c0;
+}
+
+.pay {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#confirm-purchase {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #34885a;
+    color: white;
+}
+

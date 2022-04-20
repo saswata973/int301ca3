@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 18px sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #eee;
+}
+
+.main {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    border-radius: 4px;
+    color: #4c4e56;
+}
+
+#container {
+    width: 100%;
+}
+
+#image {
+    height: 100px;
+    width: 100px;
+    margin: 120px auto 50px;
+    display: block;
+} 
+
+#label {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 0px auto 100px;
+}
